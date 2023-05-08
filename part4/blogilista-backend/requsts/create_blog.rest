@@ -1,0 +1,10 @@
+post http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJpaWhvbiIsImlkIjoiNjQ0ZjU5Yzg4ODM4MGE5MDk3MDY1YThmIiwiaWF0IjoxNjgzNTMyNzk4fQ.rVk_ZABX-dPa8QoDdI8dvVNkD-18BelnIW7cfUhULDE
+
+{
+    "title": "Hyvää päivää",
+    "author": "H. Helmiäinen",
+    "url": "blogilyfe.fi",
+    "likes": 100
+}
